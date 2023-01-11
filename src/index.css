@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#Container {
+  background-color: rgb(218, 218, 218);
+  width: 80%;
+  height: 100vh;
+  position: relative;
+  margin-left: 20%;
+}
+
+#firstRow {
+  padding-top: '10%';
+  padding-left: '3%';
+}
+#SideBar {
+  background-color: #bd5d38;
+  width: 20%;
+  height: 100vh;
+  position: fixed;
+}
+
+#SideBarMin {
+  display: none;
+  z-index: 1;
+}
+
+@media screen and (min-width: 700px) {
+  #ContainerMin {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  #SideBar,
+  #Container {
+    display: none;
+  }
+  #SideBarMin {
+    display: block;
+    position: sticky;
+    top: 0;
+  }
+  #ContainerMin {
+    background-color: rgb(218, 218, 218);
+    position: relative;
+  }
+}
+
+#myPhoto {
+  width: 50%;
+  margin-top: 50%;
+  border-radius: 50%;
+  border-style: double;
+  border-width: 15px;
+  border-color: rgb(116, 70, 70);
+  margin-left: 25%;
+}
+
+.nav-item {
+  color: rgb(196, 196, 196);
+  font-weight: bold;
+  text-align: center;
+  font-family: sans-serif;
+  margin-top: 10%;
+  cursor: pointer;
+}
+.nav-item:hover {
+  color: rgb(255, 255, 255);
+}
+.name {
+  font-size: 80px;
+  font-family: 'Saira' Extra Condensed;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #343a40;
+}
+.address {
+  font-size: 14px;
+  font-family: 'Saira' Extra Condensed;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #343a40;
+}
+
+.intro {
+  font-size: 16px;
+  font-family: 'Saira' Extra Condensed;
+  font-weight: 400;
+}
+.SocialIcon {
+  margin-right: 1%;
+}
+.experiance {
+  width: 70%;
+  height: 150vh;
+  background-color: aqua;
+  float: right;
+  width: 80%;
+  margin-left: 20%;
+}
+
+.title {
+  font-size: 60px;
+  font-family: 'Saira' Extra Condensed;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #343a40;
+}
