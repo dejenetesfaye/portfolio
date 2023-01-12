@@ -1,6 +1,7 @@
 import { React } from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 import { SocialIcon } from 'react-social-icons';
 import SideBarMin from '../comp/SideBarMin';
 export default function MainPageMin() {
@@ -155,51 +156,212 @@ export default function MainPageMin() {
           <hr />
           <Row id="SKILLS" style={{ paddingLeft: '3%' }}>
             <p class="title">Skills</p>
-            <p class="address">Senior Web Developer</p>
           </Row>
-
           <Row
-            style={{ paddingTop: '2%', paddingLeft: '3%', paddingRight: '10%' }}
+            style={{ paddingTop: '2%', paddingLeft: '3%', paddingBottom: '3%' }}
           >
-            <p class="intro">
-              Bring to the table win-win survival strategies to ensure proactive
-              domination. At the end of the day, going forward, a new normal
-              that has evolved from generation X is on the runway heading
-              towards a streamlined cloud solution. User generated content in
-              real-time will have multiple touchpoints for offshoring.
-            </p>
-          </Row>
+            <Col lg={6} md={12} sm={12}>
+              <p class="address">Programming Languages & Tools</p>
 
-          <Row style={{ paddingLeft: '3%' }}>
-            <p class="address">Senior Web Developer</p>
-          </Row>
+              <p
+                style={{
+                  paddingTop: '2%',
+                  paddingLeft: '3%',
+                }}
+              >
+                System Programming
+              </p>
+              <Row
+                style={{
+                  paddingTop: '2%',
+                  paddingLeft: '3%',
+                  paddingRight: '10%',
+                  paddingBottom: '1%',
+                }}
+              >
+                {/* python */}
+                <i
+                  style={{
+                    height: '20%',
+                    width: '20%',
+                  }}
+                >
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" />
+                </i>
+                {/* jupyter */}
+                <i
+                  style={{
+                    height: '20%',
+                    width: '20%',
+                  }}
+                >
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg" />
+                </i>
+                {/* C */}
+                <i
+                  style={{
+                    height: '20%',
+                    width: '20%',
+                  }}
+                >
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
+                </i>
+                {/* C++ */}
+                <i
+                  style={{
+                    height: '20%',
+                    width: '20%',
+                  }}
+                >
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-plain.svg" />
+                </i>
+              </Row>
 
-          <Row
-            style={{ paddingTop: '2%', paddingLeft: '3%', paddingRight: '10%' }}
-          >
-            <p class="intro">
-              Bring to the table win-win survival strategies to ensure proactive
-              domination. At the end of the day, going forward, a new normal
-              that has evolved from generation X is on the runway heading
-              towards a streamlined cloud solution. User generated content in
-              real-time will have multiple touchpoints for offshoring.
-            </p>
-          </Row>
+              <p
+                style={{
+                  paddingTop: '2%',
+                  paddingLeft: '5%',
+                }}
+              >
+                Frontend Programming
+              </p>
 
-          <Row style={{ paddingLeft: '3%' }}>
-            <p class="address">Senior Web Developer</p>
-          </Row>
+              <Row
+                style={{
+                  paddingTop: '2%',
+                  paddingLeft: '3%',
+                  paddingRight: '20%',
+                  paddingBottom: '1%',
+                }}
+              >
+                {/* HTML */}
+                <i
+                  style={{
+                    height: '20%',
+                    width: '20%',
+                  }}
+                >
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" />
+                </i>
+                {/* css */}
+                <i
+                  style={{
+                    height: '20%',
+                    width: '20%',
+                  }}
+                >
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" />
+                </i>
+                {/* javascript */}
+                <i
+                  style={{
+                    height: '20%',
+                    width: '20%',
+                  }}
+                >
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                </i>
+                {/* react */}
+                <i
+                  style={{
+                    height: '20%',
+                    width: '20%',
+                  }}
+                >
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" />
+                </i>
+              </Row>
 
-          <Row
-            style={{ paddingTop: '2%', paddingLeft: '3%', paddingRight: '10%' }}
-          >
-            <p class="intro">
-              Bring to the table win-win survival strategies to ensure proactive
-              domination. At the end of the day, going forward, a new normal
-              that has evolved from generation X is on the runway heading
-              towards a streamlined cloud solution. User generated content in
-              real-time will have multiple touchpoints for offshoring.
-            </p>
+              <p
+                style={{
+                  paddingTop: '2%',
+                  paddingLeft: '5%',
+                }}
+              >
+                backend Programming
+              </p>
+
+              <Row
+                style={{
+                  paddingTop: '2%',
+                  paddingLeft: '3%',
+                  paddingRight: '20%',
+                  paddingBottom: '1%',
+                }}
+              >
+                {/* node */}
+                <i
+                  style={{
+                    height: '20%',
+                    width: '20%',
+                  }}
+                >
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" />
+                </i>
+
+                {/* PHP */}
+
+                <i
+                  style={{
+                    height: '20%',
+                    width: '20%',
+                  }}
+                >
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-plain.svg" />
+                </i>
+                {/* codeigniter */}
+
+                <i
+                  style={{
+                    height: '20%',
+                    width: '20%',
+                  }}
+                >
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/codeigniter/codeigniter-plain-wordmark.svg" />
+                </i>
+                {/* django */}
+                <i
+                  style={{
+                    height: '20%',
+                    width: '20%',
+                  }}
+                >
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain-wordmark.svg" />
+                </i>
+              </Row>
+            </Col>
+            <Col lg={6} md={12} sm={12}>
+              <Row style={{ paddingTop: '2%' }}>
+                <p class="address">Adminstration Skill</p>
+                <p style={{ paddingTop: '2%', paddingLeft: '3%' }}>
+                  Leadership Skill
+                </p>
+              </Row>
+
+              <Row
+                style={{
+                  paddingTop: '2%',
+                  paddingRight: '10%',
+                }}
+              >
+                <p class="intro">
+                  Bring to the table win-win survival strategies to ensure
+                  proactive domination. At the end of the day, going forward, a
+                  new normal that has evolved from generation X is on the runway
+                  heading towards a streamlined cloud solution. User generated
+                  content in real-time will have multiple touchpoints for
+                  offshoring.
+                </p>
+                <p class="intro">
+                  Bring to the table win-win survival strategies to ensure
+                  proactive domination. At the end of the day, going forward, a
+                  new normal that has evolved from generation X is on the runway
+                  heading towards a streamlined cloud solution. User generated
+                  content in real-time will have multiple touchpoints for
+                  offshoring.
+                </p>
+              </Row>
+            </Col>
           </Row>
         </Container>
 
