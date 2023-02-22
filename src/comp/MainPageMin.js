@@ -4,6 +4,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { SocialIcon } from 'react-social-icons';
 import SideBarMin from '../comp/SideBarMin';
+import frontend from '../img/frontend certificate.PNG';
 export default function MainPageMin() {
   return (
     <div>
@@ -364,7 +365,6 @@ export default function MainPageMin() {
             </Col>
           </Row>
         </Container>
-
         {/* Interests */}
         <Container id="ContainerMin">
           <hr />
@@ -417,57 +417,20 @@ export default function MainPageMin() {
             </p>
           </Row>
         </Container>
-
+        {/* Certificates */}
+        <Container id="ContainerMin">
+          <hr />
+          <Row id="CERTIFICATES" style={{ paddingLeft: '3%' }}>
+            <p class="title">CERTIFICATES</p>
+            <img id="frontend" src={frontend} alt="myPhoto" style={{}} />
+          </Row>
+        </Container>
         {/* AWARDS */}
         <Container id="ContainerMin">
           <hr />
           <Row id="AWARDS" style={{ paddingLeft: '3%' }}>
             <p class="title">AWARDS</p>
-            <p class="address">Senior Web Developer</p>
-          </Row>
-
-          <Row
-            style={{ paddingTop: '2%', paddingLeft: '3%', paddingRight: '10%' }}
-          >
-            <p class="intro">
-              Bring to the table win-win survival strategies to ensure proactive
-              domination. At the end of the day, going forward, a new normal
-              that has evolved from generation X is on the runway heading
-              towards a streamlined cloud solution. User generated content in
-              real-time will have multiple touchpoints for offshoring.
-            </p>
-          </Row>
-
-          <Row style={{ paddingLeft: '3%' }}>
-            <p class="address">Senior Web Developer</p>
-          </Row>
-
-          <Row
-            style={{ paddingTop: '2%', paddingLeft: '3%', paddingRight: '10%' }}
-          >
-            <p class="intro">
-              Bring to the table win-win survival strategies to ensure proactive
-              domination. At the end of the day, going forward, a new normal
-              that has evolved from generation X is on the runway heading
-              towards a streamlined cloud solution. User generated content in
-              real-time will have multiple touchpoints for offshoring.
-            </p>
-          </Row>
-
-          <Row style={{ paddingLeft: '3%' }}>
-            <p class="address">Senior Web Developer</p>
-          </Row>
-
-          <Row
-            style={{ paddingTop: '2%', paddingLeft: '3%', paddingRight: '10%' }}
-          >
-            <p class="intro">
-              Bring to the table win-win survival strategies to ensure proactive
-              domination. At the end of the day, going forward, a new normal
-              that has evolved from generation X is on the runway heading
-              towards a streamlined cloud solution. User generated content in
-              real-time will have multiple touchpoints for offshoring.
-            </p>
+            <img id="frontend" src={frontend} alt="myPhoto" />
           </Row>
         </Container>
       </div>

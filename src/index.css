@@ -12,12 +12,25 @@ code {
     monospace;
 }
 
+.App {
+  background-color: rgb(218, 218, 218);
+}
+
 #Container {
   background-color: rgb(218, 218, 218);
   width: 80%;
   height: 100vh;
   position: relative;
   margin-left: 20%;
+}
+#ContainerCertificates {
+  background-color: rgb(218, 218, 218);
+  width: 80%;
+  position: relative;
+  margin-left: 20%;
+}
+#footer {
+  height: 100vh;
 }
 
 #firstRow {
@@ -44,14 +57,15 @@ code {
 
 @media screen and (max-width: 700px) {
   #SideBar,
-  #Container {
+  #Container,
+  #ContainerCertificates {
     display: none;
   }
-  #SideBarMin {
+  /* #SideBarMin {
     display: block;
     position: sticky;
     top: 0;
-  }
+  } */
   #ContainerMin {
     background-color: rgb(218, 218, 218);
     position: relative;
