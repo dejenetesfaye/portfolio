@@ -187,7 +187,10 @@ export default function MainPageMin() {
                     width: '20%',
                   }}
                 >
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" />
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg"
+                    alt=""
+                  />
                 </i>
                 {/* jupyter */}
                 <i
@@ -196,7 +199,10 @@ export default function MainPageMin() {
                     width: '20%',
                   }}
                 >
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg" />
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg"
+                    alt=""
+                  />
                 </i>
                 {/* C */}
                 <i
@@ -205,7 +211,10 @@ export default function MainPageMin() {
                     width: '20%',
                   }}
                 >
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg"
+                    alt=""
+                  />
                 </i>
                 {/* C++ */}
                 <i
@@ -214,7 +223,10 @@ export default function MainPageMin() {
                     width: '20%',
                   }}
                 >
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-plain.svg" />
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-plain.svg"
+                    alt=""
+                  />
                 </i>
               </Row>
 
@@ -242,7 +254,10 @@ export default function MainPageMin() {
                     width: '20%',
                   }}
                 >
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" />
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg"
+                    alt=""
+                  />
                 </i>
                 {/* css */}
                 <i
@@ -251,7 +266,10 @@ export default function MainPageMin() {
                     width: '20%',
                   }}
                 >
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" />
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg"
+                    alt=""
+                  />
                 </i>
                 {/* javascript */}
                 <i
@@ -260,7 +278,10 @@ export default function MainPageMin() {
                     width: '20%',
                   }}
                 >
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                    alt=""
+                  />
                 </i>
                 {/* react */}
                 <i
@@ -269,7 +290,10 @@ export default function MainPageMin() {
                     width: '20%',
                   }}
                 >
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" />
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"
+                    alt=""
+                  />
                 </i>
               </Row>
 
@@ -297,7 +321,10 @@ export default function MainPageMin() {
                     width: '20%',
                   }}
                 >
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" />
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg"
+                    alt=""
+                  />
                 </i>
 
                 {/* PHP */}
@@ -308,7 +335,10 @@ export default function MainPageMin() {
                     width: '20%',
                   }}
                 >
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-plain.svg" />
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-plain.svg"
+                    alt=""
+                  />
                 </i>
                 {/* codeigniter */}
 
@@ -318,7 +348,10 @@ export default function MainPageMin() {
                     width: '20%',
                   }}
                 >
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/codeigniter/codeigniter-plain-wordmark.svg" />
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/codeigniter/codeigniter-plain-wordmark.svg"
+                    alt=""
+                  />
                 </i>
                 {/* django */}
                 <i
@@ -327,7 +360,10 @@ export default function MainPageMin() {
                     width: '20%',
                   }}
                 >
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain-wordmark.svg" />
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain-wordmark.svg"
+                    alt=""
+                  />
                 </i>
               </Row>
             </Col>
