@@ -1,8 +1,6 @@
 import { React } from 'react';
 import Dropdown from 'react-bootstrap/Dropdown';
 
-import myPhoto from '../img/myPhoto.jpg';
-
 function ScrollToABOUT(id) {
   var element = document.getElementById(id);
   if (element) {
