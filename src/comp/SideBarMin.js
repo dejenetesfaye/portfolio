@@ -34,14 +34,15 @@ export default function SideBarMin() {
                 ABOUT
               </div>
             </Dropdown.Item>
-            <Dropdown.Item>
-              <div class="nav-item" onClick={() => ScrollToABOUT('EXPERIANCE')}>
-                EXPERIANCE
-              </div>
-            </Dropdown.Item>
+
             <Dropdown.Item>
               <div class="nav-item" onClick={() => ScrollToABOUT('EDUCATION')}>
                 EDUCATION
+              </div>
+            </Dropdown.Item>
+            <Dropdown.Item>
+              <div class="nav-item" onClick={() => ScrollToABOUT('EXPERIANCE')}>
+                EXPERIANCE
               </div>
             </Dropdown.Item>
             <Dropdown.Item>

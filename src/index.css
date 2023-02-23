@@ -19,7 +19,7 @@ code {
 #Container {
   background-color: rgb(218, 218, 218);
   width: 80%;
-  height: 100vh;
+  min-height: 100vh;
   position: relative;
   margin-left: 20%;
 }
@@ -74,7 +74,7 @@ code {
 
 #myPhoto {
   width: 50%;
-  margin-top: 50%;
+  margin-top: 35%;
   border-radius: 50%;
   border-style: double;
   border-width: 15px;

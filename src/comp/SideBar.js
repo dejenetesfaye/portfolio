@@ -18,12 +18,13 @@ export default function SideBar() {
         <div class="nav-item" onClick={() => ScrollToABOUT('ABOUT')}>
           ABOUT
         </div>
-        <div class="nav-item" onClick={() => ScrollToABOUT('EXPERIANCE')}>
-          EXPERIANCE
-        </div>
         <div class="nav-item" onClick={() => ScrollToABOUT('EDUCATION')}>
           EDUCATION
         </div>
+        <div class="nav-item" onClick={() => ScrollToABOUT('EXPERIANCE')}>
+          EXPERIANCE
+        </div>
+
         <div class="nav-item" onClick={() => ScrollToABOUT('SKILLS')}>
           SKILLS
         </div>
