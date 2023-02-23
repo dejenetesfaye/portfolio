@@ -95,14 +95,14 @@ code {
 }
 .name {
   font-size: 80px;
-
+  font-family: 'Times New Roman', Times, serif;
   font-weight: 700;
   text-transform: uppercase;
   color: #343a40;
 }
 .address {
   font-size: 14px;
-
+  font-family: 'Times New Roman', Times, serif;
   font-weight: 700;
   text-transform: uppercase;
   color: #343a40;
@@ -110,7 +110,7 @@ code {
 
 .intro {
   font-size: 16px;
-
+  font-family: 'Times New Roman', Times, serif;
   font-weight: 400;
 }
 .SocialIcon {
@@ -127,7 +127,7 @@ code {
 
 .title {
   font-size: 60px;
-
+  font-family: 'Times New Roman', Times, serif;
   font-weight: 700;
   text-transform: uppercase;
   color: #343a40;
