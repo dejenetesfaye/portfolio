@@ -24,7 +24,7 @@ export default function MainPageMin() {
               Addis ababa Ethiopia , (+251) 921335447 ·
               <span style={{ color: '#bd5d38', textTransform: 'lowercase' }}>
                 {' '}
-                deju1921@email.com
+                deju1921@gmail.com
               </span>
             </p>
           </Row>
@@ -114,17 +114,14 @@ export default function MainPageMin() {
             <p class="address">Senior Web Developer</p>
           </Row>
 
-          <Row
-            style={{ paddingTop: '2%', paddingLeft: '3%', paddingRight: '10%' }}
-          >
+          <Row style={{ paddingTop: '2%', paddingLeft: '3%' }}>
             <table class="table table-striped">
               <thead>
                 <tr>
                   <th scope="col">#</th>
                   <th scope="col">ORG.</th>
                   <th scope="col">POSITION</th>
-                  <th scope="col">FROM</th>
-                  <th scope="col">TO</th>
+                  <th scope="col">DATE</th>
                   <th scope="col">REMARK</th>
                 </tr>
               </thead>
@@ -133,8 +130,7 @@ export default function MainPageMin() {
                   <th scope="row">1</th>
                   <td>INSA</td>
                   <td>trainee</td>
-                  <td>2017-02-03</td>
-                  <td>2017-10-05</td>
+                  <td>2017-02-03 to 2017-10-05</td>
                   <td rowspan="2">
                     &nbsp;I am security software developer from started my job
                     until now with different position.
@@ -144,15 +140,13 @@ export default function MainPageMin() {
                   <th scope="row">2</th>
                   <td>INSA</td>
                   <td>Application software developer</td>
-                  <td>2017-10-06</td>
-                  <td>2020-01-09</td>
+                  <td>2017-10-06 to 2020-01-09</td>
                 </tr>
                 <tr>
                   <th scope="row">3</th>
                   <td>INSA</td>
                   <td>Application software developer</td>
-                  <td>2020-01-10</td>
-                  <td>2020-03-09</td>
+                  <td>2020-01-10 to 2020-03-09</td>
                   <td rowspan="2">
                     Mainly I had been working with Anti-virus and web
                     application firewall. It gives me great opportunity to know
@@ -165,15 +159,13 @@ export default function MainPageMin() {
                   <th scope="row">4</th>
                   <td>INSA</td>
                   <td>senior application programmer</td>
-                  <td>2021-03-10</td>
-                  <td>2021-08-31</td>
+                  <td>2021-03-10 to 2021-08-31</td>
                 </tr>
                 <tr>
                   <th scope="row">5</th>
                   <td>INSA</td>
                   <td>Team leader</td>
-                  <td>2021-09-01</td>
-                  <td>2022-06-02</td>
+                  <td>2021-09-01 to 2022-06-02</td>
                   <td rowspan="2">
                     The second headache in cyber world is performance. The first
                     one is security. In this area I got so many experience to
@@ -184,15 +176,13 @@ export default function MainPageMin() {
                   <th scope="row">6</th>
                   <td>INSA</td>
                   <td>Team leader</td>
-                  <td>2022-06-03</td>
-                  <td>2022-06-07</td>
+                  <td>2022-06-03 to 2022-06-07</td>
                 </tr>
                 <tr>
                   <th scope="row">7</th>
                   <td>INSA</td>
                   <td>Team leader</td>
-                  <td>2022-06-08</td>
-                  <td>NOW</td>
+                  <td>2022-06-08 until NOW</td>
                   <td rowspan="2">
                     At last, now I am team leader for security application
                     products at INSA. It gives me the chance to know about many

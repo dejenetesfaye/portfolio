@@ -22,7 +22,7 @@ export default function MainPage() {
               Addis ababa Ethiopia , (+251) 921335447 ·
               <span style={{ color: '#bd5d38', textTransform: 'lowercase' }}>
                 {' '}
-                deju1921@email.com
+                deju1921@gmail.com
               </span>
             </p>
           </Row>
