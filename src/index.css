@@ -141,3 +141,10 @@ code {
   text-transform: uppercase;
   color: #343a40;
 }
+
+#footer {
+  float: right;
+  height: 30px;
+  float: left;
+  padding-left: '5%';
+}

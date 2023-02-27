@@ -516,6 +516,12 @@ export default function MainPageMin() {
             <hr />
             <img id="frontend" src={cert2} alt="myPhoto" />
           </Row>
+          <hr/>
+          <Row>
+            <div id="footer">
+              <p style={{ float: 'right' }}>design by Deju.</p>
+            </div>
+          </Row>
         </Container>
       </div>
     </div>
