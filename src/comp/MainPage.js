@@ -9,6 +9,19 @@ import supsi from '../img/supsi.jpg';
 import cert1 from '../img/cert1.jpg';
 import cert2 from '../img/cert2.jpg';
 
+import cloudCompute from '../img/A practical intro to cloud computing.png';
+import agile from '../img/agile product management.png';
+import blockchain from '../img/blockchain fundamentals for creating cryptocurrency using python.png';
+import cyberAttack from '../img/common cybersecurity attack and defence strategies.png';
+import frontendDev from '../img/complate frontend web development.png';
+import cyberwarfareDefence from '../img/cyber warefare- defence againest nation-state threates.png';
+import deepweb from '../img/deepweb and cybersecurity.png';
+import ML from '../img/machine learning with python.png';
+import OOP from '../img/OOP in python.png';
+import ReactJS from '../img/ReactJS crash cource.png';
+import scrum from '../img/scrum_ A Concise Introduction.png';
+import sqlInjection from '../img/SQL injection attacks.png';
+
 export default function MainPage() {
   return (
     <div id="MainPage">
@@ -504,16 +517,151 @@ export default function MainPage() {
           <hr />
           <Row id="CERTIFICATES" style={{ paddingLeft: '3%' }}>
             <p class="title">CERTIFICATES</p>
-            <img id="frontend" src={frontend} alt="myPhoto" style={{}} />
+            <div class="row">
+              <div class="col-sm-4">
+                <img
+                  id="frontend"
+                  src={cyberAttack}
+                  alt="myPhoto"
+                  style={{ width: '100%' }}
+                />
+              </div>
+              <div class="col-sm-4">
+                <img
+                  id="frontend"
+                  src={cyberwarfareDefence}
+                  alt="myPhoto"
+                  style={{ width: '100%' }}
+                />
+              </div>
+              <div class="col-sm-4">
+                <img
+                  id="frontend"
+                  src={deepweb}
+                  alt="myPhoto"
+                  style={{ width: '100%' }}
+                />
+              </div>
+            </div>
           </Row>
           <hr />
           <Row id="CERTIFICATES" style={{ paddingLeft: '3%' }}>
-            <img id="frontend" src={cisco} alt="myPhoto" style={{}} />
+            <div class="row">
+              <div class="col-sm-4">
+                <img
+                  id="frontend"
+                  src={sqlInjection}
+                  alt="myPhoto"
+                  style={{ width: '100%' }}
+                />
+              </div>
+              <div class="col-sm-4">
+                <img
+                  id="frontend"
+                  src={blockchain}
+                  alt="myPhoto"
+                  style={{ width: '100%' }}
+                />
+              </div>
+              <div class="col-sm-4">
+                <img
+                  id="frontend"
+                  src={cloudCompute}
+                  alt="myPhoto"
+                  style={{ width: '100%' }}
+                />
+              </div>
+            </div>
           </Row>
           <hr />
           <Row id="CERTIFICATES" style={{ paddingLeft: '3%' }}>
             <hr />
-            <img id="frontend" src={supsi} alt="myPhoto" style={{}} />
+            <div class="row">
+              <div class="col-sm-4">
+                <img
+                  id="frontend"
+                  src={ML}
+                  alt="myPhoto"
+                  style={{ width: '100%' }}
+                />
+              </div>
+              <div class="col-sm-4">
+                <img
+                  id="frontend"
+                  src={OOP}
+                  alt="myPhoto"
+                  style={{ width: '100%' }}
+                />
+              </div>
+              <div class="col-sm-4">
+                <img
+                  id="frontend"
+                  src={frontendDev}
+                  alt="myPhoto"
+                  style={{ width: '100%' }}
+                />
+              </div>
+            </div>
+          </Row>
+          <hr />
+          <Row id="CERTIFICATES" style={{ paddingLeft: '3%' }}>
+            <hr />
+            <div class="row">
+              <div class="col-sm-4">
+                <img
+                  id="frontend"
+                  src={ReactJS}
+                  alt="myPhoto"
+                  style={{ width: '100%' }}
+                />
+              </div>
+              <div class="col-sm-4">
+                <img
+                  id="frontend"
+                  src={agile}
+                  alt="myPhoto"
+                  style={{ width: '100%' }}
+                />
+              </div>
+              <div class="col-sm-4">
+                <img
+                  id="frontend"
+                  src={scrum}
+                  alt="myPhoto"
+                  style={{ width: '100%' }}
+                />
+              </div>
+            </div>
+          </Row>
+          <hr />
+          <Row id="CERTIFICATES" style={{ paddingLeft: '3%' }}>
+            <hr />
+            <div class="row">
+              <div class="col-sm-4">
+                <img
+                  id="frontend"
+                  src={frontend}
+                  alt="myPhoto"
+                  style={{ width: '100%' }}
+                />
+              </div>
+              <div class="col-sm-4">
+                <img
+                  id="frontend"
+                  src={cisco}
+                  alt="myPhoto"
+                  style={{ width: '100%' }}
+                />
+              </div>
+              <div class="col-sm-4">
+                <img
+                  id="frontend"
+                  src={supsi}
+                  alt="myPhoto"
+                  style={{ width: '100%' }}
+                />
+              </div>
+            </div>
           </Row>
         </Container>
 
@@ -523,9 +671,24 @@ export default function MainPage() {
           <Row id="AWARDS" style={{ paddingLeft: '3%' }}>
             <p class="title">AWARDS</p>
             <hr />
-            <img id="frontend" src={cert1} alt="myPhoto" />
-            <hr />
-            <img id="frontend" src={cert2} alt="myPhoto" />
+            <div class="row">
+              <div class="col-sm-4">
+                <img
+                  id="frontend"
+                  src={cert2}
+                  alt="myPhoto"
+                  style={{ width: '100%' }}
+                />
+              </div>
+              <div class="col-sm-4">
+                <img
+                  id="frontend"
+                  src={cert1}
+                  alt="myPhoto"
+                  style={{ width: '100%' }}
+                />
+              </div>
+            </div>
           </Row>
           <hr />
           <Row>
